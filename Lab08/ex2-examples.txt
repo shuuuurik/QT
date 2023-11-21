@@ -1,0 +1,22 @@
+--REGISTER - SUCCESSFUL--
+Request
+{
+    "email": "eve.holt@reqres.in",
+    "password": "pistol"
+}
+Response
+{
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}
+
+
+--REGISTER - UNSUCCESSFUL--
+Request
+{
+    "email": "sydney@fife"
+}
+Response
+{
+    "error": "Missing password"
+}
