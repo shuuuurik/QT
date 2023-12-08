@@ -11,11 +11,11 @@
 ```
 python -m venv .venv
 
-.\venv\Scripts\activate
+.\.venv\Scripts\activate
 
 pip install PySide6
 
-.\venv\Scripts\python.exe .\main.py
+.\.venv\Scripts\python.exe .\main.py
 ```
 
 
